@@ -1,0 +1,14 @@
+<?php
+echo "hello";
+$ch ='a';
+switch ($ch)
+{
+case 'a' : echo "$ch it is avowel";
+case 'e' : echo "$ch it is avowel";
+case 'i' : echo "$ch it is avowel";
+case 'o' : echo "$ch it is avowel"; 
+case 'u' : echo "$ch it is avowel";
+break;
+default : echo"$ch it is a consonant";
+}
+?>

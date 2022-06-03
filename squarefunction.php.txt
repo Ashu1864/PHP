@@ -1,0 +1,12 @@
+<?php
+function square($a,$b)
+{
+$v=0
+for ($a=$v;$v<=$b;$v++)
+{
+$square = $v*$v;
+}
+echo "$square";
+}
+square(10,20);
+?>
